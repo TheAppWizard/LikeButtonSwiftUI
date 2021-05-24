@@ -167,7 +167,7 @@ struct LikeButton: View {
                         .foregroundColor(Color(UIColor.systemGray))
                         .animation(base)
 
-                    Image("HeartBG")
+                    Image("hand.thumbsup.fill")
                         .resizable()
                         .scaleEffect(touch ? 1 : 0)
                         .aspectRatio(contentMode: .fit)
